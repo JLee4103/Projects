@@ -1,10 +1,23 @@
 body {
-    font-family: Roboto;
-    margin: 0;
-    min-height: 100vh;
+  background-color: #FFFFFF;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-family: 'Roboto', arial;
+}
+
+  .container {
     display: flex;
     flex-direction: column;
-  }
+}
+
+.navbar {
+  display: flex;
+  color: #F9FAF8;
+  background-color: #1F2937;
+  padding: 20px 0px 20px 100px;
+  align-items: center;
+}
 
   .header {
     height: 72px;
@@ -16,16 +29,109 @@ body {
     font-size: 32px;
   }
   
+  
   .header-link {
-    background: #1f2937;
-    font-weight: 450;
-    font-size: 16px;
-    height: 25px;
-    
-    flex: 1;
     display: flex;
-    align-items: last baseline;
-    justify-content: right;
-    padding: 15px;
-    flex-direction: column;
-  }
+    margin-left: auto;
+    padding: 0px 100px 0px 0px;  
+}
+
+.header-link a {
+  text-decoration: none;
+  color: #E5E7EB;
+  font-size: 18px;
+  padding: 10px;
+  font-family: 'Roboto', arial;
+}
+
+.header-name {
+  display: flex;
+  padding: 0px 100px 0px 0px;  
+}
+
+.header-name a {
+  text-decoration: none;
+  color: #E5E7EB;
+  font-size: 18px;
+  font-weight: 450;
+  padding: 10px;
+  font-family: 'Roboto', arial;
+}
+
+.hero {
+  display: flex;
+  color: #F9FAF8;
+  background-color: #1F2937;
+  align-items: center;
+  justify-content: center;
+  padding: 90px;
+}
+
+.hero-cta {
+  flex-basis: 400px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-right: 50px;
+}
+
+.hero-cta p {
+  font-family: 'Roboto', arial;
+  opacity: 0.7;
+}
+
+.hero-image img {
+  width: 500px;
+  height: 350px;
+}
+
+.content {
+  align-items: center;
+}
+
+.content-info {
+  display: flex;
+  /* border: 1px solid gold; */
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.content-info img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 4px solid #3882F6;
+  border-radius: 15px;
+  margin: 5px 20px 0px 20px;
+}
+
+.footer {
+  background-color: #1F2937;
+  color: #fff;
+  font-family: 'Roboto', arial;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  background-color: #E5E7EB;
+  padding: 0 200px;
+}
+
+.quote p {
+  font-size: 36px;
+  color: #1F2937;
+  font-style: italic;
+  font-weight: lighter;
+  font-family: 'Roboto', arial;
+}
+
+.quote b {
+  padding-bottom: 20px;
+  padding-right: 10px;
+  font-family: 'Roboto', arial;
+  text-align: right;
+}
