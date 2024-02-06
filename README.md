@@ -1,2 +1,0 @@
-# Projects
-List of projects
